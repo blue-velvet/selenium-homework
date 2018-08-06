@@ -20,25 +20,17 @@ def check_element(driver, locator):
         return False
 
 
-def test_example(driver):
+def test_sticker_check(driver):
 
     def login(driver):
         driver.get("http://localhost/litecart/")
 
     login(driver)
     count = 0
-
+    #поиск всех уток
     ducks = driver.find_elements_by_css_selector("a.link[title $= Duck]")
+    #проверяем на наличие стикера "поуточно"
     for i in ducks:
-        check_element(i, "div[class *= sticker")
-        #lables = driver.find_elements_by_css_selector("div[class *= sticker]")
-        #if len(lables):
-            #count += 1
-        #else:
-            #print("no sticker")
-    #if count == len(ducks):
-        #print("all")
-
-
-
-
+        count += check_element(i, "div[class $= sale")
+    #выводим количество найденных стикеров
+    print("Number of stickers is " + str(count))
