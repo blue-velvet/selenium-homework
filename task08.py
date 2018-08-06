@@ -1,6 +1,5 @@
 import pytest
 from selenium import webdriver
-from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
 
@@ -31,6 +30,6 @@ def test_sticker_check(driver):
     ducks = driver.find_elements_by_css_selector("a.link[title $= Duck]")
     #проверяем на наличие стикера "поуточно"
     for i in ducks:
-        count += check_element(i, "div[class $= sale")
+        count += check_element(i, "div[class = 'sticker sale'")
     #выводим количество найденных стикеров
     print("Number of stickers is " + str(count))
