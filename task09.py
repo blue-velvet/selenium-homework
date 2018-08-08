@@ -21,14 +21,15 @@ def test_check_sorting(driver):
     login(driver)
     driver.get("http://localhost/litecart/admin/?app=countries&doc=countries")
     list1 = []
-    list2 = []
 
+    #составляем список всех стран
     list_of_countries = driver.find_elements_by_css_selector("tr.row")
+    #проходимся в цикле по каждой стране
     for country in list_of_countries:
+        #добавляем страну в список
+        list1.append(country.find_element_by_xpath("td[5]/a").text)
 
-        if country.find_element_by_xpath("td[5]/a").text[0] not in list1:
-            list1.append(country.find_element_by_xpath("td[5]/a").text[0])
-
+        #поиск по зонам
         if int(country.find_element_by_xpath("td[6]").text) > 0:
             country.find_element_by_xpath("td[5]/a").send_keys(Keys.CONTROL + Keys.RETURN)
             time.sleep(1)
@@ -36,13 +37,16 @@ def test_check_sorting(driver):
 
             list_of_zones = driver.find_elements_by_css_selector("table#table-zones tr:not(.header)")
 
-            #for zone in list_of_zones:
-                #list2.append(zone.find_element_by_xpath("td[3]").text)
-            #print(list2)
+            list2 = []
 
-            #if str(list2) == str(sorted(list2)):
-                #print("ZONES YES")
-            driver.find_element_by_tag_name('body').send_keys(Keys.CONTROL + 'w')
+            for zone in list_of_zones:
+                if zone.find_element_by_xpath("td[3]").text is not '':
+                    list2.append(zone.find_element_by_xpath("td[3]").text)
+
+            if str(list2) == str(sorted(list2)):
+                print("ZONES YES")
+            driver.close()
+            driver.switch_to_window(driver.window_handles[0])
 
     if str(list1) == str(sorted(list1)):
         print(list1)

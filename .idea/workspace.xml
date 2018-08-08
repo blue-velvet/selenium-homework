@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="d5c60710-587b-4db6-bde1-23f73b1254a7" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task10.py" afterPath="$PROJECT_DIR$/task10.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task09.py" afterPath="$PROJECT_DIR$/task09.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,23 +14,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="task07.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="task07.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/task07.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
+            <state relative-caret-position="646">
               <caret line="38" column="42" lean-forward="false" selection-start-line="38" selection-start-column="16" selection-end-line="38" selection-end-column="42" />
-              <folding>
-                <element signature="e#0#13#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="task10.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/task10.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="52" column="33" lean-forward="false" selection-start-line="52" selection-start-column="33" selection-end-line="52" selection-end-column="33" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
@@ -85,7 +73,6 @@
         <option value="$PROJECT_DIR$/asd.py" />
         <option value="$PROJECT_DIR$/task08.py" />
         <option value="$PROJECT_DIR$/../python-homework/fixture/application.py" />
-        <option value="$PROJECT_DIR$/task09.py" />
         <option value="$PROJECT_DIR$/fixture/Application.py" />
         <option value="$PROJECT_DIR$/conftest.py" />
         <option value="$PROJECT_DIR$/fixture/session.py" />
@@ -94,6 +81,7 @@
         <option value="$PROJECT_DIR$/task07.py" />
         <option value="$PROJECT_DIR$/1.py" />
         <option value="$PROJECT_DIR$/task10.py" />
+        <option value="$PROJECT_DIR$/task09.py" />
       </list>
     </option>
   </component>
@@ -118,7 +106,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -139,7 +127,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -167,7 +155,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.py.test in task10.py">
+  <component name="RunManager" selected="Python tests.py.test in task09.py">
     <configuration name="py.test in 1.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -268,9 +256,9 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python tests.py.test in task10.py" />
-        <item index="1" class="java.lang.String" itemvalue="Python tests.py.test in 1.py" />
-        <item index="2" class="java.lang.String" itemvalue="Python tests.py.test in task09.py" />
+        <item index="0" class="java.lang.String" itemvalue="Python tests.py.test in task09.py" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.py.test in task10.py" />
+        <item index="2" class="java.lang.String" itemvalue="Python tests.py.test in 1.py" />
         <item index="3" class="java.lang.String" itemvalue="Python tests.py.test in test" />
         <item index="4" class="java.lang.String" itemvalue="Python tests.py.test in test_add_contact.py" />
       </list>
@@ -290,29 +278,29 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="py_test_in_task10_py - 2018.08.08 at 07h 54m 28s.xml">
-      <configuration name="py.test in task10.py" configurationId="tests" />
+    <history-entry file="py_test_in_task09_py - 2018.08.08 at 21h 04m 52s.xml">
+      <configuration name="py.test in task09.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_task10_py - 2018.08.08 at 07h 55m 35s.xml">
-      <configuration name="py.test in task10.py" configurationId="tests" />
+    <history-entry file="py_test_in_task09_py - 2018.08.08 at 21h 08m 55s.xml">
+      <configuration name="py.test in task09.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_task10_py - 2018.08.08 at 07h 56m 18s.xml">
-      <configuration name="py.test in task10.py" configurationId="tests" />
+    <history-entry file="py_test_in_task09_py - 2018.08.08 at 21h 11m 02s.xml">
+      <configuration name="py.test in task09.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_task10_py - 2018.08.08 at 09h 31m 38s.xml">
-      <configuration name="py.test in task10.py" configurationId="tests" />
+    <history-entry file="py_test_in_task09_py - 2018.08.08 at 21h 13m 00s.xml">
+      <configuration name="py.test in task09.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_task10_py - 2018.08.08 at 09h 32m 55s.xml">
-      <configuration name="py.test in task10.py" configurationId="tests" />
+    <history-entry file="py_test_in_task09_py - 2018.08.08 at 21h 15m 05s.xml">
+      <configuration name="py.test in task09.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_task10_py - 2018.08.08 at 09h 33m 38s.xml">
-      <configuration name="py.test in task10.py" configurationId="tests" />
+    <history-entry file="py_test_in_task09_py - 2018.08.08 at 21h 21m 38s.xml">
+      <configuration name="py.test in task09.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_task10_py - 2018.08.08 at 09h 44m 05s.xml">
-      <configuration name="py.test in task10.py" configurationId="tests" />
+    <history-entry file="py_test_in_task09_py - 2018.08.08 at 21h 22m 14s.xml">
+      <configuration name="py.test in task09.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_task10_py - 2018.08.08 at 09h 44m 40s.xml">
-      <configuration name="py.test in task10.py" configurationId="tests" />
+    <history-entry file="py_test_in_task09_py - 2018.08.08 at 21h 24m 52s.xml">
+      <configuration name="py.test in task09.py" configurationId="tests" />
     </history-entry>
     <history-entry file="py_test_in_task10_py - 2018.08.08 at 09h 47m 50s.xml">
       <configuration name="py.test in task10.py" configurationId="tests" />
@@ -323,9 +311,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -350,11 +337,21 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="3" />
+      <option name="time" value="4" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/task07.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/task07.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="612">
@@ -369,9 +366,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="22" column="28" lean-forward="false" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -389,9 +383,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="17" column="60" lean-forward="false" selection-start-line="17" selection-start-column="60" selection-end-line="17" selection-end-column="60" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -571,13 +562,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/fixture/application.py" />
-    <entry file="file://$PROJECT_DIR$/task09.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="32" lean-forward="false" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../python-homework/conftest.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -607,23 +591,10 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/fixture/session.py" />
-    <entry file="file://$PROJECT_DIR$/task07.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="38" column="42" lean-forward="false" selection-start-line="38" selection-start-column="16" selection-end-line="38" selection-end-column="42" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1603">
           <caret line="97" column="8" lean-forward="false" selection-start-line="97" selection-start-column="8" selection-end-line="97" selection-end-column="8" />
-          <folding>
-            <element signature="e#0#13#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -631,6 +602,29 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
           <caret line="52" column="33" lean-forward="false" selection-start-line="52" selection-start-column="33" selection-end-line="52" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/selenium/webdriver/remote/webelement.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="640" column="0" lean-forward="false" selection-start-line="640" selection-start-column="0" selection-end-line="640" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task09.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="385">
+          <caret line="31" column="23" lean-forward="false" selection-start-line="31" selection-start-column="23" selection-end-line="31" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task07.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="38" column="42" lean-forward="false" selection-start-line="38" selection-start-column="16" selection-end-line="38" selection-end-column="42" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>
