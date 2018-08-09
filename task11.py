@@ -1,8 +1,9 @@
 import pytest
 from selenium import webdriver
 from selenium.webdriver.support.ui import Select
-import string
-import random
+from selenium.webdriver.common.action_chains import ActionChains
+import string, random, time
+
 
 
 @pytest.fixture
@@ -16,12 +17,13 @@ def test_user_login(driver):
 
     open_home_page(driver)
 
+    #генерим тестовые данные
     firstname = gen_string(7)
     lastname = gen_string(7)
     address1 = gen_string(7)
     city = gen_string(7)
     password = gen_string(7)
-    postcode = gen_postcode(6)
+    postcode = gen_postcode(5)
     phone = gen_postcode(7)
     email = gen_email(5)
 
@@ -31,6 +33,7 @@ def test_user_login(driver):
     open_home_page(driver)
     login(driver, email, password)
     logout(driver)
+    #распечатка использованных данных
     print(firstname, lastname, address1, postcode, city, email, phone, password)
 
 
@@ -64,8 +67,9 @@ def fill_form(driver, firstname, lastname, address1, postcode, city, email, phon
     type(driver, 'password', password)
     type(driver, 'confirmed_password', password)
 
-    #Select(driver.find_element_by_css_selector("select[name='country_code']")).select_by_visible_text("United States")
-    #Select(driver.find_element_by_css_selector("select[name='zone_code']")).select_by_visible_text("New York")
+    Select(driver.find_element_by_css_selector("select[name='country_code']")).select_by_value("US")
+    time.sleep(2) #поменять на нормальное ожидание
+    Select(driver.find_element_by_css_selector("select[name='zone_code']")).select_by_value("CA")
 
     driver.find_element_by_name('create_account').click()
 
@@ -79,7 +83,9 @@ def type(driver, field_name, value):
 def login(driver, email, password):
     type(driver, 'email', email)
     type(driver, 'password', password)
+    time.sleep(4) #проблема с антивирусом
     driver.find_element_by_css_selector("button[name='login']").click()
+
 
 def open_home_page(driver):
     driver.get("http://localhost/litecart/")
