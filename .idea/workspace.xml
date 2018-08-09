@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d5c60710-587b-4db6-bde1-23f73b1254a7" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task11.py" afterPath="$PROJECT_DIR$/task11.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task12.py" afterPath="$PROJECT_DIR$/task12.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,12 +13,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="task11.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/task11.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="33" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="33" />
+              <folding>
+                <element signature="e#0#13#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="task12.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/task12.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="255">
+              <caret line="21" column="83" lean-forward="false" selection-start-line="21" selection-start-column="83" selection-end-line="21" selection-end-column="83" />
+              <folding>
+                <element signature="e#0#13#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -80,8 +93,8 @@
         <option value="$PROJECT_DIR$/1.py" />
         <option value="$PROJECT_DIR$/task10.py" />
         <option value="$PROJECT_DIR$/task09.py" />
-        <option value="$PROJECT_DIR$/task12.py" />
         <option value="$PROJECT_DIR$/task11.py" />
+        <option value="$PROJECT_DIR$/task12.py" />
       </list>
     </option>
   </component>
@@ -155,7 +168,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.py.test in task11.py">
+  <component name="RunManager" selected="Python tests.py.test in task12.py">
     <configuration name="py.test in 1.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -256,8 +269,8 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python tests.py.test in task11.py" />
-        <item index="1" class="java.lang.String" itemvalue="Python tests.py.test in task12.py" />
+        <item index="0" class="java.lang.String" itemvalue="Python tests.py.test in task12.py" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.py.test in task11.py" />
         <item index="2" class="java.lang.String" itemvalue="Python tests.py.test in task10.py" />
         <item index="3" class="java.lang.String" itemvalue="Python tests.py.test in task09.py" />
         <item index="4" class="java.lang.String" itemvalue="Python tests.py.test in 1.py" />
@@ -278,24 +291,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="py_test_in_task11_py - 2018.08.09 at 19h 53m 03s.xml">
-      <configuration name="py.test in task11.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="py_test_in_task11_py - 2018.08.09 at 19h 53m 48s.xml">
-      <configuration name="py.test in task11.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="py_test_in_task11_py - 2018.08.09 at 19h 55m 06s.xml">
-      <configuration name="py.test in task11.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="py_test_in_task11_py - 2018.08.09 at 20h 16m 14s.xml">
-      <configuration name="py.test in task11.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="py_test_in_task11_py - 2018.08.09 at 20h 17m 02s.xml">
-      <configuration name="py.test in task11.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="py_test_in_task11_py - 2018.08.09 at 20h 18m 09s.xml">
-      <configuration name="py.test in task11.py" configurationId="tests" />
-    </history-entry>
     <history-entry file="py_test_in_task11_py - 2018.08.09 at 20h 20m 02s.xml">
       <configuration name="py.test in task11.py" configurationId="tests" />
     </history-entry>
@@ -307,6 +302,24 @@
     </history-entry>
     <history-entry file="py_test_in_task11_py - 2018.08.09 at 20h 23m 50s.xml">
       <configuration name="py.test in task11.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_task12_py - 2018.08.09 at 21h 37m 25s.xml">
+      <configuration name="py.test in task12.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_task12_py - 2018.08.09 at 21h 38m 48s.xml">
+      <configuration name="py.test in task12.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_task12_py - 2018.08.09 at 21h 39m 19s.xml">
+      <configuration name="py.test in task12.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_task12_py - 2018.08.09 at 21h 41m 17s.xml">
+      <configuration name="py.test in task12.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_task12_py - 2018.08.09 at 21h 42m 00s.xml">
+      <configuration name="py.test in task12.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_task12_py - 2018.08.09 at 21h 43m 14s.xml">
+      <configuration name="py.test in task12.py" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -581,13 +594,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/task09.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="385">
-          <caret line="31" column="23" lean-forward="false" selection-start-line="31" selection-start-column="23" selection-end-line="31" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/task07.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -602,10 +608,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/task09.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="14" column="4" lean-forward="false" selection-start-line="14" selection-start-column="4" selection-end-line="18" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/task11.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="583">
-          <caret line="85" column="41" lean-forward="false" selection-start-line="85" selection-start-column="41" selection-end-line="85" selection-end-column="41" />
+        <state relative-caret-position="187">
+          <caret line="11" column="33" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="33" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>
@@ -614,9 +628,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/task12.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="255">
+          <caret line="21" column="83" lean-forward="false" selection-start-line="21" selection-start-column="83" selection-end-line="21" selection-end-column="83" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
